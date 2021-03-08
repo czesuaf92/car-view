@@ -1,11 +1,12 @@
 import { PageLayout } from './components/layout'
+import {Dashboard} from './pages/Dashboard'
 
 const App = () => {
   return (
     <PageLayout>
-      <h1>
-        Hello World
-      </h1>
+      <Dashboard> 
+
+      </Dashboard>
     </PageLayout>
   );
 }
