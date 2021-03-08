@@ -9,8 +9,11 @@ export const AppRouter = () => {
   return (
     <Router>
       <Switch>
-        <Route path="/">
+        <Route exact path="/">
           <Dashboard />
+        </Route>
+        <Route path="/przebieg">
+          <div>Przebieg</div>
         </Route>
       </Switch>
     </Router>
