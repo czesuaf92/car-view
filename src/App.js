@@ -1,11 +1,12 @@
+import { PageLayout } from './components/layout'
 
-function App() {
+const App = () => {
   return (
-    <div>
+    <PageLayout>
       <h1>
         Hello World
       </h1>
-    </div>
+    </PageLayout>
   );
 }
 
