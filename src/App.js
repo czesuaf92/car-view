@@ -1,12 +1,10 @@
 import { PageLayout } from './components/layout'
-import {Dashboard} from './pages/Dashboard'
+import { AppRouter } from './router/AppRouter'
 
 const App = () => {
   return (
     <PageLayout>
-      <Dashboard> 
-
-      </Dashboard>
+      <AppRouter></AppRouter>
     </PageLayout>
   );
 }
